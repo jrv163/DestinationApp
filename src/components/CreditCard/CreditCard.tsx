@@ -33,7 +33,7 @@ const CreditCard: React.FC<TypeCreditCardProps> = (props: TypeCreditCardProps) =
                         {!!props.inputs.cardNumber.value ? props.inputs.cardNumber.value : '0123 4567 8910 1234'}
                     </text>
                     <text transform="matrix(1 0 0 1 54.1064 428.1723)" className="credit-card__holder st2 st5 st6">
-                        {!!props.inputs.cardHolder.value ? props.inputs.cardHolder.value : 'JOHN DOE'}
+                        {!!props.inputs.cardHolder.value ? props.inputs.cardHolder.value : 'JAMER RODRIGUEZ'}
                     </text>
                     <text transform="matrix(1 0 0 1 54.1074 389.8793)" className="st7 st5 st8">
                         cardholder name

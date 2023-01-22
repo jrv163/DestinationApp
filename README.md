@@ -53,20 +53,22 @@ The project includes extra packages and improved file structure.
 
 ```json
 {
-	"hotel_id": 3,
-	"start_date": "2021-01-20",
-	"end_date": "2021-02-20",
-	"adult": 10,
-	"child": 2,
-	"room_type": 2,
-	"room_scenic": 3,
-	"price": 7676,
-	"coupon_code": "CODE100",
-	"card_name": "Obada Qawwas",
-	"card_number": "1111222233334444",
-	"card_date_month": "01",
-	"card_date_year": "2030",
-	"card_cvv": "999"
+"hotel_id": 3,
+		"start_date": "2023-06-29",
+		"end_date": "2024-07-09",
+		"adult": 2,
+		"child": 2,
+		"room_type": 4,
+		"room_scenic": 69,
+		"price": 40240,
+		"coupon_code": "CODE100",
+		"card_name": "Jamer Rodriguez",
+		"card_number": "1111111111111111",
+		"card_date_month": "11",
+		"card_date_year": "2025",
+		"card_cvv": "111",
+		"id": 3,
+		"room_scnic": "Hilton"
 }
 ```
 
