@@ -1,0 +1,585 @@
+[
+	{
+		"id": "1",
+		"hotel_id": 1,
+		"city": "Canada",
+		"possibilities": [
+			"Hilton ",
+			"Extend stay",
+			"Sonesta",
+			"Aramco",
+			"Holulu",
+			"Marriot"
+		],
+		"max_adult_size": 4,
+		"child_status": true,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/1-standart.jpg",
+				"price": 1127
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": ".",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/1-deluxe.jpg",
+				"price": 2647
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/1-suit.jpg",
+				"price": 4647
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 15
+			},
+			{
+				"id": 3,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 38
+			}
+		]
+	},
+	{
+		"id": "2",
+		"hotel_id": 2,
+		"city": "Germany",
+		"possibilities": [	"Break Fast",
+		"Lounge",
+		"Fitness ",
+		"Sauna",
+		"Buhar Odası",
+		"Massage",
+		"Spa"],
+		"max_adult_size": 5,
+		"child_status": false,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/2-standart.jpg",
+				"price": 1578
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/2-deluxe.jpg",
+				"price": 1678
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/2-suit.jpg",
+				"price": 2420
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 15
+			},
+			{
+				"id": 3,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 35
+			}
+		]
+	},
+	{
+		"id": "3",
+		"hotel_id": 3,
+		"city": "Antalya",
+		"possibilities": [	"Break Fast",
+		"Lounge",
+		"Fitness ",
+		"Sauna",
+		"Buhar Odası",
+		"Massage",
+		"Spa"],
+		"max_adult_size": 8,
+		"child_status": true,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/3-standart.jpg",
+				"price": 559
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/3-deluxe.jpg",
+				"price": 699
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/1-suit.jpg",
+				"price": 2012
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 12
+			},
+			{
+				"id": 3,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 37
+			}
+		]
+	},
+	{
+		"id": "4",
+		"hotel_id": 4,
+		"city": "Italy",
+		"possibilities": [	"Break Fast",
+		"Lounge",
+		"Fitness ",
+		"Sauna",
+		"Buhar Odası",
+		"Massage",
+		"Spa"],
+		"max_adult_size": 12,
+		"child_status": false,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/4-standart.jpg",
+				"price": 539
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/4-deluxe.jpg",
+				"price": 1520
+			},
+			{
+				"id": 3,
+				"title": "Suit",
+				"description": "request it. ",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/4-suit.jpg",
+				"price": 2441
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 14
+			},
+			{
+				"id": 3,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 46
+			}
+		]
+	},
+	{
+		"id": "5",
+		"hotel_id": 5,
+		"city": "Colombia",
+		"possibilities": [
+				"Break Fast",
+			"Lounge",
+			"Fitness ",
+			"Sauna",
+			"Buhar Odası",
+			"Massage",
+			"Spa"
+		],
+		"max_adult_size": 11,
+		"child_status": true,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/5-standart.jpg",
+				"price": 1083
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/5-deluxe.jpg",
+				"price": 1244
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/1-suit.jpg",
+				"price": 2657
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 12
+			},
+			{
+				"id": 3,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 27
+			}
+		]
+	},
+	{
+		"id": "6",
+		"hotel_id": 6,
+		"city": "Muğla",
+		"possibilities": [
+			"Break Fast",
+			"Lounge",
+			"Fitness ",
+			"Sauna",
+			"Buhar Odası",
+			"Massage",
+			"Spa"
+		],
+		"max_adult_size": 4,
+		"child_status": false,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/6-standart.jpg",
+				"price": 447
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/6-deluxe.jpg",
+				"price": 550
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/6-suit.jpg",
+				"price": 1200
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 11
+			},
+			{
+				"id": 3,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 26
+			}
+		]
+	},
+	{
+		"id": "7",
+		"hotel_id": 7,
+		"city": "Mexico",
+		"possibilities": [
+			"Break Fast",
+			"Lounge",
+			"Fitness ",
+			"Sauna",
+			"Buhar Odası",
+			"Massage",
+			"Spa"
+		],
+		"max_adult_size": 10,
+		"child_status": false,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/7-standart.jpg",
+				"price": 1087
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/7-deluxe.jpg",
+				"price": 1711
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/7-suit.jpg",
+				"price": 2277
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 17
+			},
+			{
+				"id": 3,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 42
+			}
+		]
+	},
+	{
+		"id": "8",
+		"hotel_id": 8,
+		"city": "Usa",
+		"possibilities": [
+			"Break Fast",
+			"Lounge",
+			"Fitness ",
+			"Sauna",
+			"Buhar Odası",
+			"Massage",
+			"Spa"
+		],
+		"max_adult_size": 9,
+		"child_status": true,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/8-standart.jpg",
+				"price": 541
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/8-deluxe.jpg",
+				"price": 631
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "Duis id magna et velit tempor accumsan. Nam ultrices fringilla sapien a interdum. Vivamus fermentum risus in est pellentesque.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/8-suit.jpg",
+				"price": 820
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 13
+			},
+			{
+				"id": 3,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 27
+			}
+		]
+	},
+	{
+		"id": "9",
+		"hotel_id": 9,
+		"city": "Francia",
+		"possibilities": [
+			"Break Fast",
+			"Lounge",
+			"Fitness ",
+			"Sauna",
+			"Buhar Odası",
+			"Massage",
+			"Spa"
+		],
+		"max_adult_size": 10,
+		"child_status": true,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/9-standart.jpg",
+				"price": 627
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/9-deluxe.jpg",
+				"price": 820
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/1-suit.jpg",
+				"price": 1013
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 14
+			},
+			{
+				"id": 3,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 19
+			}
+		]
+	},
+	{
+		"id": "10",
+		"hotel_id": 10,
+		"city": "UK",
+		"possibilities": [
+			"Break Fast",
+			"Lounge",
+			"Fitness ",
+			"Sauna",
+			"Buhar Odası",
+			"Massage",
+			"Spa"
+		],
+		"max_adult_size": 6,
+		"child_status": true,
+		"room_type": [
+			{
+				"id": 1,
+				"title": "Standart",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/10-standart.jpg",
+				"price": 610
+			},
+			{
+				"id": 2,
+				"title": "Deluxe",
+				"description": "request it.",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/10-deluxe.jpg",
+				"price": 1258
+			},
+			{
+				"id": 4,
+				"title": "Suit",
+				"description": "request it",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/10-suit.jpg",
+				"price": 1549
+			}
+		],
+		"room_scenic": [
+			{
+				"id": 1,
+				"title": "Hilton",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/land-view.jpg",
+				"price_rate": 1
+			},
+			{
+				"id": 2,
+				"title": "Marriot",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/pool-view.jpg",
+				"price_rate": 26
+			},
+			{
+				"id": 3,
+				"title": "Sonesta",
+				"photo": "https://teknasyon-mailling.s3.eu-central-1.amazonaws.com/challenge/frontend/img/sea-view.jpg",
+				"price_rate": 55
+			}
+		]
+	}
+]
